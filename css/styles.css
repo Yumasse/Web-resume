@@ -1,0 +1,154 @@
+ html,
+ body {
+     height: 100%;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+
+ .wrapper {
+     width: 1170px;
+     margin: 0% auto;
+     height: 100%;
+     position: relative;
+ }
+
+ .about {
+     background: #FFFFFF;
+    width: 595px;
+    height: 840px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .figure1 {
+    width: 1200px;
+    height: 270px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+ }
+
+.name {
+    width: 500px;
+    height: 180px;
+
+    margin-top: 50px;
+    margin-left: 550px;
+
+    position: absolute;
+}
+
+.name-text1 {
+    width: 224px;
+    height: 129px;
+    flex-shrink: 0;
+    color: #352E2E;
+
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.name-text2 {
+    color: #352E2E;
+    
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figure2 {
+    width: 350px;
+    height: 840px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    background: #B39E9F;
+    position: absolute;
+}
+
+.photo {
+    width: 250px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.header-text-dark {
+    color: #352E2E;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-left: 50px;
+    margin-top: 65px;
+
+
+}
+
+.text-dark {
+    color: #352E2E;
+
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+
+
+.wrapper-for-text {
+    width: 550px;
+    height: 800x;
+    margin-top: 20px;
+    margin-left: 500px;
+        
+    position: absolute;
+}
+
+.header-text-light {
+    color: #352E2E;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-left: 50px;
+    margin-top: 25px;
+
+
+}
+
+.text-light {
+    color: #352E2E;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+
+
+
